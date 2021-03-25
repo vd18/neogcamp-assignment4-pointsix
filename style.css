@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Shippori+Mincho+B1&display=swap');
+
+
+
+:root {
+    --primarycolor : #F5E050;
+}
+
+
+
+body{
+    margin: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.navbar{
+    background-color: var(--primarycolor);
+    text-align: center;
+    font-size: 3rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+.img{
+
+    width: 150px;
+    height: 420px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+    display: block;
+    margin: auto;
+}
+
+
+#tex-area{
+   
+    width: 50%;
+    height: 20vh;
+}
+
+#btn-translate{
+    background-color: var(--primarycolor);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1rem 1rem;
+    font-size: large;
+    margin-top: 1rem;
+}
+
+.outputtext{
+
+    text-align: center;
+    margin: 1rem;
+}
+
+
+#outputbox{
+
+    border: 1px solid black;
+    width: 50%;
+    height: 20vh;
+   overflow: scroll;
+}
+
+.footerdiv{
+    margin-top: 2rem;
+    text-align: center;
+    background-color: var(--primarycolor);
+
+    font-size: 1.3rem;
+    
+}
+
+.foottext{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+   
+    
+}
+
+.alwayscome{
+    min-width: 300px;
+    max-width: 800px;
+    display: block;
+    margin: auto;
+}
